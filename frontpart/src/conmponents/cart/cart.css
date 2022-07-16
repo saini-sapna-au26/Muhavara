@@ -1,0 +1,383 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100&family=Roboto+Mono&display=swap");
+.cart {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px;
+  gap: 42px;
+  min-height: 100vh;
+  width: 25%;
+  left: 785px;
+  top: 0px;
+  font-family: "Barlow Semi Condensed", sans-serif;
+
+  /* Base / Dark Bg 2 */
+
+  background: #1f1d2b;
+  border-radius: 8px;
+}
+
+.title {
+  width: 132px;
+  height: 28px;
+  left: 0px;
+  top: 0px;
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+.orderid {
+  font-family: "Barlow Semi Condensed", sans-serif;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+  /* identical to box height, or 28px */
+
+  /* White */
+
+  color: #ffffff;
+}
+
+.button1 {
+  display: flex;
+  font-family: "Barlow Semi Condensed", sans-serif;
+
+  flex-direction: row;
+}
+
+.button {
+  cursor: pointer;
+  color: #69d9ea;
+  background-color: #1f1d2b;
+  border: 1px solid #393c49;
+  border-radius: 8px;
+  width: 74px;
+  height: 34px;
+  margin: 2px;
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+.button:hover {
+  background-color: #ea7c69;
+  color: white;
+}
+
+.heading {
+  margin-top: -25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+.item {
+  font-family: "Barlow Semi Condensed", sans-serif;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  margin-right: 60%;
+  /* or 22px */
+
+  /* White */
+
+  color: #ffffff;
+}
+
+.price {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+
+  /* White */
+
+  color: #ffffff;
+}
+
+.qty {
+  margin-right: 15%;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 600;
+  font-family: "Barlow Semi Condensed", sans-serif;
+
+  font-size: 16px;
+  line-height: 140%;
+
+  color: #ffffff;
+}
+
+.order {
+  margin-top: -40px;
+  display: flex;
+  flex-direction: column;
+  min-height: 400px;
+  font-family: "Barlow Semi Condensed", sans-serif;
+
+  width: 100%;
+  border-bottom: 1px solid rgb(148, 144, 144, 0.6);
+  border-top: 1px solid rgb(148, 144, 144, 0.6);
+}
+
+.dis {
+  margin-top: -35px;
+  display: flex;
+  flex-direction: row;
+}
+
+.tot {
+  margin-top: -15px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.discount {
+  width: 54px;
+  height: 20px;
+  left: 0px;
+  top: 0px;
+
+  /* Body / Normal - Regular */
+
+  font-family: "Barlow Semi Condensed", sans-serif;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  /* identical to box height, or 20px */
+
+  /* Text/Light */
+
+  color: #abbbc2;
+}
+
+.total {
+  width: 55px;
+  height: 20px;
+
+  /* Body / Normal - Regular */
+
+  font-family: "Barlow Semi Condensed", sans-serif;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  /* identical to box height, or 20px */
+
+  /* Text/Light */
+
+  color: #abbbc2;
+}
+
+.paise {
+  width: 19px;
+  height: 22px;
+  margin-left: 322px;
+
+  /* Body/Large - Medium */
+
+  font-family: "Barlow Semi Condensed", sans-serif;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+
+  text-align: right;
+
+  /* White */
+
+  color: #ffffff;
+}
+
+.total-paise {
+  width: 19px;
+  height: 22px;
+  margin-left: 322px;
+
+  /* Body/Large - Medium */
+
+  font-family: "Barlow Semi Condensed", sans-serif;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+
+  text-align: right;
+
+  /* White */
+
+  color: #ffffff;
+}
+
+.pay {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 14px;
+  gap: 8px;
+
+  width: 200%;
+  height: 38px;
+
+  /* Primary Color */
+
+  background: #69e1ea;
+  box-shadow: 0px 8px 24px rgba(234, 124, 105, 0.3);
+  border-radius: 8px;
+
+  /* Inside auto layout */
+  color: white;
+  border: none;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.order-deatils {
+  margin: 5px;
+}
+
+.data,
+.input {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2px;
+  background-color: #1f1d2b;
+}
+
+.pro_img {
+  width: 7vh;
+  height: 7vh;
+
+  border-radius: 50%;
+}
+
+.input1 {
+  background: #2d303e;
+  /* Base / Dark Line */
+  margin-top: 5px;
+  border: 1px solid #393c49;
+  border-radius: 5px;
+  gap: 8px;
+  width: 310px;
+  height: 38px;
+  left: 0px;
+  top: 58px;
+  padding-left: 15px;
+  font-family: "Barlow Semi Condensed", sans-serif;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  /* identical to box height, or 20px */
+
+  /* Text/Gray */
+
+  color: #889898;
+}
+
+.del {
+  margin-left: 28px;
+  height: 42px;
+  background: #1f1d2b;
+  border-radius: 8px;
+  color: #69d0ea;
+  border: 1px solid #69eac8;
+  margin-top: 4px;
+  padding: 0px 10px 0px 10px;
+}
+
+.p-name {
+  width: 140px;
+  /* Body / Normal - Medium */
+
+  font-family: "Barlow Semi Condensed", sans-serif;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  /* or 18px */
+
+  /* White */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.p-price {
+  height: 10px;
+  font-family: "Barlow Semi Condensed", sans-serif;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  text-align: start;
+  /* identical to box height, or 17px */
+  margin-top: -14px;
+
+  /* Text/Light */
+  color: #abbbc2;
+}
+
+.div {
+  margin-top: -5px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+
+.quantity {
+  width: 48px;
+  height: 38px;
+  left: 249px;
+  top: 0px;
+  text-align: center;
+  padding-top: 10px;
+
+  /* Base / Form BG */
+
+  background: #74767b;
+  /* Base / Dark Line */
+  border: 1px solid #717276;
+  border-radius: 8px;
+  color: white;
+  margin-left: 62px;
+}
+.quantity1 {
+  width: 38px;
+  height: 38px;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 8px;
+  color: white;
+  margin-left: 60px;
+}
+.dummy {
+  width: 400px;
+  height: 400px;
+  margin: 5px;
+  border: #1f1d2b;
+  border-radius: 16px;
+
+  background: #2d303e;
+}
