@@ -1,9 +1,10 @@
 .bars {
-  display: flex;
-  width: 100%;
+    display: flex;
+    width: 100%;
 
-  /* Base / Dark Bg 1 */
 
-  background: #da5fab;
-  border-radius: 16px;
+    /* Base / Dark Bg 1 */
+
+    background: #252836;
+    border-radius: 16px;
 }
